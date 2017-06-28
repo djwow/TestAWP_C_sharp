@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="ClassLibrary1.dll" fullname="C:/C#/ClassLibrary1/ClassLibrary1/bin/Debug/ClassLibrary1.dll" testcasecount="1" result="Passed" start-time="2017-06-27 12:01:32Z" end-time="2017-06-27 12:01:39Z" duration="7.223221" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" random-seed="702619127">
+  <command-line><![CDATA["C:\Program Files\NUnit.Framework-3.7.1\bin\net-4.5\nunitlite-runner.exe"  C:\C#\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll --result=C:\C#\ClassLibrary1\TestR.xml]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1002" name="ClassLibrary1.dll" fullname="C:/C#/ClassLibrary1/ClassLibrary1/bin/Debug/ClassLibrary1.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-06-27 12:01:32Z" end-time="2017-06-27 12:01:39Z" duration="7.223221" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.7.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Administrator\.jenkins\jobs\TestAWP (C sharp)\workspace" machine-name="ATP03" user="Administrator" user-domain="ATP03" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\Users\Administrator\.jenkins\jobs\TestAWP (C sharp)\workspace" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="4264" />
+      <property name="_APPDOMAIN" value="nunitlite-runner.exe" />
+    </properties>
+    <test-suite type="TestSuite" id="1003" name="ClassLibrary1" fullname="ClassLibrary1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-06-27 12:01:32Z" end-time="2017-06-27 12:01:39Z" duration="7.177995" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestFixture" id="1000" name="Main" fullname="ClassLibrary1.Main" classname="ClassLibrary1.Main" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-06-27 12:01:32Z" end-time="2017-06-27 12:01:39Z" duration="7.150206" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-case id="1001" name="myFirstTest" fullname="ClassLibrary1.Main.myFirstTest" methodname="myFirstTest" classname="ClassLibrary1.Main" runstate="Runnable" seed="1866452678" result="Passed" start-time="2017-06-27 12:01:35Z" end-time="2017-06-27 12:01:39Z" duration="3.998787" asserts="1" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

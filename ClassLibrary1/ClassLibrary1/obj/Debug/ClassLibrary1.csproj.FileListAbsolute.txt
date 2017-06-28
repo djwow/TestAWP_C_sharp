@@ -1,0 +1,9 @@
+C:\C#\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+C:\C#\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\C#\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\C#\ClassLibrary1\ClassLibrary1\bin\Debug\WebDriver.dll
+C:\C#\ClassLibrary1\ClassLibrary1\bin\Debug\WebDriver.xml
+C:\C#\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\C#\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\C#\ClassLibrary1\ClassLibrary1\bin\Debug\nunit.framework.dll
+C:\C#\ClassLibrary1\ClassLibrary1\bin\Debug\nunit.framework.xml
