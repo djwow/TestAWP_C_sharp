@@ -9,16 +9,30 @@ using NUnit.Framework;
 
 namespace ClassLibrary1
 {
+    [TestFixture]
     public class Main
     {
-        IWebDriver driver = new ChromeDriver();
+        IWebDriver driver;
+
+        [SetUp]
+        public void Setup()
+        {
+            driver = new ChromeDriver();
+        }
+
+        [TearDown]
+        public void Teardown()
+        {
+            driver.Close();
+            driver.Quit();
+
+        }
+
         [Test]
         public void myFirstTest()
         {
-            driver.Navigate().GoToUrl("http://www.google.com");
-            Assert.AreEqual("Google", driver.Title);
-            driver.Close();
-            driver.Quit();
+            driver.Navigate().GoToUrl("https://192.168.157.10");
+            Assert.AreEqual("MiVoice Office 250", driver.Title);
         }
 
     }
